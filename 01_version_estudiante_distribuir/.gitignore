@@ -1,0 +1,55 @@
+# Salidas generadas automaticamente
+outputs/reportes/*
+outputs/respaldos/*
+outputs/logs/*
+outputs/dashboard/*
+!outputs/reportes/.gitkeep
+!outputs/respaldos/.gitkeep
+!outputs/logs/.gitkeep
+!outputs/dashboard/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+ENV/
+
+# Editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporales
+*.log
+*.tmp
+*.bak
+*.zip
+*.rar
+*.7z
+
+# Seguridad
+.env
+.env.local
+.env.*.local
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Material docente o respuestas que nunca deben subirse en version estudiante
+material_docente/
+GUIA_DOCENTE*
+*RESPUESTAS*
+*SOLUCION*
+*SOLUCIÓN*
+*solucion*
+*respuestas*
+moodle/

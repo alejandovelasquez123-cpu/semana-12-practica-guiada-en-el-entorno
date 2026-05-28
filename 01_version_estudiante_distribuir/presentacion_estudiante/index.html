@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semana 12 - Scripts y automatización</title>
+  <style>
+    :root{--azul:#1f4e79;--verde:#1f7a4d;--gris:#f4f6f8;--texto:#17202a;--naranja:#f39c12;}
+    body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:var(--gris);color:var(--texto);}
+    header{background:linear-gradient(135deg,var(--azul),#0f273d);color:white;padding:42px 8%;}
+    header h1{margin:0;font-size:42px;}
+    header p{font-size:20px;max-width:900px;line-height:1.5;}
+    main{padding:28px 8%;}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:24px 0;}
+    .card{background:white;border-radius:18px;padding:24px;box-shadow:0 8px 22px rgba(0,0,0,.08);border-top:6px solid var(--azul);}
+    .card h2{margin-top:0;color:var(--azul);}
+    .flow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:28px 0;}
+    .step{background:white;border:2px solid #d9e2ec;border-radius:14px;padding:14px 18px;font-weight:700;}
+    .arrow{font-size:26px;color:var(--verde);font-weight:900;}
+    .highlight{background:#fff7e6;border-left:6px solid var(--naranja);padding:20px;border-radius:14px;margin:28px 0;}
+    code{background:#eaf0f6;padding:3px 6px;border-radius:6px;}
+    footer{padding:24px 8%;background:#0f273d;color:white;margin-top:36px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Semana 12: Scripts, respaldos y reportes</h1>
+    <p>Práctica guiada para comprender cómo un script puede leer datos, procesarlos, generar reportes, crear respaldos y presentar resultados visuales.</p>
+  </header>
+  <main>
+    <section class="grid">
+      <div class="card"><h2>1. Datos</h2><p>El archivo CSV contiene registros diarios de producción de una finca.</p></div>
+      <div class="card"><h2>2. Script</h2><p>Python ejecuta instrucciones para validar, calcular y generar resultados.</p></div>
+      <div class="card"><h2>3. Reporte</h2><p>El reporte resume indicadores útiles para tomar decisiones.</p></div>
+      <div class="card"><h2>4. Respaldo</h2><p>El respaldo protege la información original contra pérdidas o cambios accidentales.</p></div>
+    </section>
+
+    <h2>Flujo de trabajo</h2>
+    <div class="flow">
+      <div class="step">CSV</div><div class="arrow">→</div>
+      <div class="step">Validación</div><div class="arrow">→</div>
+      <div class="step">Cálculos</div><div class="arrow">→</div>
+      <div class="step">Reporte</div><div class="arrow">→</div>
+      <div class="step">Respaldo</div><div class="arrow">→</div>
+      <div class="step">Dashboard</div>
+    </div>
+
+    <div class="highlight">
+      <strong>Comando principal:</strong><br>
+      <code>python src/main.py</code>
+    </div>
+
+    <section class="grid">
+      <div class="card"><h2>Pregunta clave</h2><p>¿Qué datos entran, qué proceso ocurre y qué resultados salen?</p></div>
+      <div class="card"><h2>Evidencia</h2><p>Capturas, bitácora, reporte, respaldo y dashboard.</p></div>
+      <div class="card"><h2>Reto</h2><p>Modificar datos, analizar errores y proponer una mejora.</p></div>
+    </section>
+  </main>
+  <footer>Actividad 2 - Semana 12 | Práctica guiada en el entorno</footer>
+</body>
+</html>

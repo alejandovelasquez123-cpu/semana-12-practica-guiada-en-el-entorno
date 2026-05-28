@@ -1,0 +1,8 @@
+fecha,dia,leche_litros,maiz_kg,alimento_kg,lluvia_mm,responsable,observacion
+2026-05-18,Lunes,24.5,38,12,4,Ana,Produccion estable
+2026-05-19,Martes,-25,41,12,0,Luis,Valor negativo intencional
+fecha_mal,Miercoles,22,35,13,12,Ana,Fecha invalida
+2026-05-21,Jueves,abc,44,12,0,Camila,Texto donde debe ir numero
+2026-05-22,Viernes,26,40,,3,Luis,Alimento vacio
+2026-05-23,Sabado,23.5,37,14,90,,Responsable vacio y lluvia alta
+2026-05-24,Domingo,21,32,13,6,Camila,Produccion menor

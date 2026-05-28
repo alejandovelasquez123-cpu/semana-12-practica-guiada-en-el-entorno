@@ -1,0 +1,5 @@
+# Este proyecto usa solo librerias estandar de Python.
+# No es necesario instalar paquetes externos para la practica principal.
+
+# Opcional para pruebas:
+# pytest
