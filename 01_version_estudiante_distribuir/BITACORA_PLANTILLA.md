@@ -51,7 +51,9 @@ Escribe qué función cumple cada carpeta.
 
 Pega aquí la captura o indica el nombre del archivo de evidencia.
 
-[pendiente por capturar]
+![Estructura del proyecto](../evidencias/evidencia_02_exploracion_proyecto.png)
+
+**Archivo:** `evidencias/evidencia_02_exploracion_proyecto.png`
 
 ---
 
@@ -69,7 +71,9 @@ El diagnóstico confirmó que Python funciona correctamente, que las carpetas pr
 
 Captura:
 
-[pendiente por capturar]
+![Diagnóstico del entorno](../evidencias/evidencia_04_diagnostico_entorno.png)
+
+**Archivo:** `evidencias/evidencia_04_diagnostico_entorno.png`
 
 ---
 
@@ -97,7 +101,9 @@ Archivos generados:
 
 Captura de la terminal:
 
-[pendiente por capturar]
+![Ejecución exitosa](../evidencias/evidencia_05_ejecucion_exitosa.png)
+
+**Archivo:** `evidencias/evidencia_05_ejecucion_exitosa.png`
 
 ---
 
@@ -128,7 +134,9 @@ Responde:
 
 Captura del reporte:
 
-[pendiente por capturar]
+![Dashboard visual](../evidencias/evidencia_06_dashboard_visual.png)
+
+**Archivo:** `evidencias/evidencia_06_dashboard_visual.png`
 
 ---
 
@@ -153,7 +161,9 @@ Responde:
 
 Captura del respaldo:
 
-[pendiente por capturar]
+![Archivos generados](../evidencias/evidencia_07_archivos_reportes_generados.png)
+
+**Archivo:** `evidencias/evidencia_07_archivos_reportes_generados.png`
 
 ---
 
